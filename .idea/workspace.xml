@@ -4,29 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8db6529-894e-4c33-bcd6-1f262623594b" name="Changes" comment="new game initialize">
-      <change afterPath="$PROJECT_DIR$/images/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ghost.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ghost_blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ghost_fright.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ghost_orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ghost_pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/man.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/paku.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pacman_final.py" afterDir="false" />
+    <list default="true" id="d8db6529-894e-4c33-bcd6-1f262623594b" name="Changes" comment="new game initialize 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pacman.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pacman.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freesansbold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Blinky.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Clyde.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Inky.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Pinky.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Trollman.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pacman.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pacman.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pacman.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pacman.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pacman_final.py" beforeDir="false" afterPath="$PROJECT_DIR$/pacman_final.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +59,7 @@
       <recent name="C:\Users\leona\PycharmProjects\PacMan-The-New-Era\images" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pacman">
+  <component name="RunManager" selected="Python.pacman_final">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PacMan-The-New-Era" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,14 +145,37 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pacman_final" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PacMan-The-New-Era" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pacman_final.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.pacman_final" />
       <item itemvalue="Python.Main" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.pacman" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pacman_final" />
         <item itemvalue="Python.pacman" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.Main" />
@@ -194,12 +198,27 @@
       <option name="project" value="LOCAL" />
       <updated>1679346635509</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new game initialize">
+      <created>1679485097083</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679485097083</updated>
+    </task>
+    <task id="LOCAL-00003" summary="new game initialize 2">
+      <created>1679485114327</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679485114327</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="new game initialize" />
-    <option name="LAST_COMMIT_MESSAGE" value="new game initialize" />
+    <MESSAGE value="new game initialize 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="new game initialize 2" />
   </component>
 </project>

@@ -69,7 +69,7 @@ class GameObject:
         self.y = in_y
 
     def get_position(self):
-        return (self.x, self.y)
+        return self.x, self.y
 
 
 class Wall(GameObject):
@@ -320,7 +320,6 @@ class Hero(MovableObject):
         self.closed = pygame.image.load("images/man.png")
         self.image = self.open
         self.mouth_open = True
-
 
     def tick(self):
         # TELEPORT
