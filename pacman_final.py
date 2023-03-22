@@ -180,7 +180,7 @@ class GameRenderer:
         self._score += in_score.value
 
     def get_hero_position(self):
-        return self._hero.get_position() if self._hero != None else (0, 0)
+        return self._hero.get_position() if self._hero is not None else (0, 0)
 
     def set_current_mode(self, in_mode: GhostBehaviour):
         self._current_mode = in_mode
