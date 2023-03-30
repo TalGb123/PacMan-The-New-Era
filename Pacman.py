@@ -882,7 +882,8 @@ def get_targets(blink_x, blink_y, ink_x, ink_y, pink_x, pink_y, clyd_x, clyd_y):
 
 run = True
 while run:
-    timer.tick(fps)
+    pygame.display.set_caption("PacMAn - The New Era")
+    timer.tick(fps) # The game runs for 60 seconds
     if counter < 19:
         counter += 1
         if counter > 3:

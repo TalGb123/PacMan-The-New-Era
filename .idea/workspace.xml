@@ -2,52 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7131dba2-4811-447c-a3a6-94b12be1d1b8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PacMan-The-New-Era.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/ghost_images/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/ghost_images/dead.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/ghost_images/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/ghost_images/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/ghost_images/powerup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/ghost_images/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/player_images/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/player_images/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/player_images/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/player_images/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/board.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pacman pieces.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pacmanlvl1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_03_2023_14_02_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_03_2023_14_02_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_03_2023_14_02__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_03_2023_14_02__Changes_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pacman.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pacman.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ghost.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ghost_blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ghost_fright.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ghost_orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ghost_pink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/level images/level1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/level images/level10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/level images/level2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/level images/level3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/level images/level4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/level images/level5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/level images/level6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/level images/level8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/level images/level9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/man.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pacman.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/paku.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pacman_final.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +35,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Tal Gubenko\PycharmProjects\interpeter\Scripts\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\97250\Desktop\ניצנים\Pacman\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -120,6 +76,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
