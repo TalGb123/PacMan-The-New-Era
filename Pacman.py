@@ -891,7 +891,8 @@ opening = pygame.transform.scale(opening, (950, 900))
 run = True
 run_open = True
 while run:
-    timer.tick(fps)
+    pygame.display.set_caption("PacMAn - The New Era")
+    timer.tick(fps) # The game runs for 60 seconds
     if counter < 19:
         counter += 1
         if counter > 3:
