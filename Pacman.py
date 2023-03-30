@@ -1,18 +1,18 @@
 # Build Pac-Man from Scratch in Python with PyGame!!
 import copy
-from board import boards
+from board import game_board
 import pygame
 import math
 
 pygame.init()
-
+start_point = True
 WIDTH = 900
 HEIGHT = 950
-screen = pygame.display.set_mode([WIDTH, HEIGHT])
+screen = pygame.display.set_mode([WIDTH, HEIGHT], pygame.RESIZABLE)
 timer = pygame.time.Clock()
 fps = 60
 font = pygame.font.Font('freesansbold.ttf', 20)
-level = copy.deepcopy(boards)
+level = copy.deepcopy(game_board)
 color = 'blue'
 PI = math.pi
 player_images = []
@@ -299,9 +299,9 @@ class Ghost:
                     self.x_pos -= self.speed
                 else:
                     self.y_pos += self.speed
-        if self.x_pos < -30:
-            self.x_pos = 900
-        elif self.x_pos > 900:
+        if self.x_pos < -30 * (2/3):
+            self.x_pos = 900 * (2/3)
+        elif self.x_pos > 900 * (2/3):
             self.x_pos - 30
         return self.x_pos, self.y_pos, self.direction
 
@@ -666,16 +666,16 @@ def draw_misc():
         pygame.draw.circle(screen, 'blue', (140, 930), 15)
     for i in range(lives):
         screen.blit(pygame.transform.scale(player_images[0], (30, 30)), (650 + i * 40, 915))
+
     if game_over:
-        pygame.draw.rect(screen, 'white', [50, 200, 800, 300],0, 10)
-        pygame.draw.rect(screen, 'dark gray', [70, 220, 760, 260], 0, 10)
-        gameover_text = font.render('Game over! Space bar to restart!', True, 'red')
-        screen.blit(gameover_text, (100, 300))
+        img = pygame.image.load('assets\\Lost.png')
+        img = pygame.transform.scale(img, (950, 900))
+        screen.blit(img, (0, 0))
+
     if game_won:
-        pygame.draw.rect(screen, 'white', [50, 200, 800, 300],0, 10)
-        pygame.draw.rect(screen, 'dark gray', [70, 220, 760, 260], 0, 10)
-        gameover_text = font.render('Victory! Space bar to restart!', True, 'green')
-        screen.blit(gameover_text, (100, 300))
+        img = pygame.image.load('assets/Won.png')
+        img = pygame.transform.scale(img, (950, 900))
+        screen.blit(img, (0, 0))
 
 
 def check_collisions(scor, power, power_count, eaten_ghosts):
@@ -880,7 +880,16 @@ def get_targets(blink_x, blink_y, ink_x, ink_y, pink_x, pink_y, clyd_x, clyd_y):
     return [blink_target, ink_target, pink_target, clyd_target]
 
 
+def mouse_in_button(button, mouse_pos):
+    if button.x_pos + button.width > mouse_pos[0] > button.x_pos and \
+            button.y_pos < mouse_pos[1] < button.y_pos + button.height:
+        return True
+
+
+opening = pygame.image.load('assets\\start.png')
+opening = pygame.transform.scale(opening, (950, 900))
 run = True
+run_open = True
 while run:
     timer.tick(fps)
     if counter < 19:
@@ -943,6 +952,7 @@ while run:
     clyde = Ghost(clyde_x, clyde_y, targets[3], ghost_speeds[3], clyde_img, clyde_direction, clyde_dead,
                   clyde_box, 3)
     draw_misc()
+
     targets = get_targets(blinky_x, blinky_y, inky_x, inky_y, pinky_x, pinky_y, clyde_x, clyde_y)
 
     turns_allowed = check_position(center_x, center_y)
@@ -998,6 +1008,8 @@ while run:
                 game_over = True
                 moving = False
                 startup_counter = 0
+
+                # ///////////////////////////
     if powerup and player_circle.colliderect(blinky.rect) and eaten_ghost[0] and not blinky.dead:
         if lives > 0:
             powerup = False
@@ -1142,6 +1154,9 @@ while run:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False
+        if pygame.key == pygame.MOUSEBUTTONDOWN:
+            # if mouse_in_button():
+            pass
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_RIGHT:
                 direction_command = 0
@@ -1178,8 +1193,8 @@ while run:
                 clyde_dead = False
                 pinky_dead = False
                 score = 0
-                lives = 3
-                level = copy.deepcopy(boards)
+                lives = 2
+                level = copy.deepcopy(game_board)
                 game_over = False
                 game_won = False
 
