@@ -99,9 +99,9 @@ class Ghost:
         num3 = 15
         self.turns = [False, False, False, False]
         if 0 < self.center_x // 30 < 29:
-            if level[(self.center_y - num3) // num1][self.center_x // num2] == 9:
+            if level[int(self.center_y - num3) // num1][int(self.center_x // num2)] == 9:
                 self.turns[2] = True
-            if level[self.center_y // num1][(self.center_x - num3) // num2] < 3 \
+            if level[int(self.center_y // num1)][int(self.center_x - num3) // num2] < 3 \
                     or (level[self.center_y // num1][(self.center_x - num3) // num2] == 9 and (
                     self.in_box or self.dead)):
                 self.turns[1] = True
